@@ -1,0 +1,14 @@
+{
+  "name": "nff747-benchmarks",
+  "version": "1.0.0",
+  "description": "Automated, ruthless benchmarking matrix for the nff747 infrastructure.",
+  "scripts": {
+    "bench:kv": "node benchmarks/kv.js",
+    "bench:all": "npm run bench:kv"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "lru-cache": "^10.0.0",
+    "agentic-memory-kv": "latest"
+  }
+}
